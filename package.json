@@ -1,0 +1,25 @@
+{
+  "name": "invest-strategies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "tsc && node dist/index.js",
+    "start": "tsc && node dist/index.js",
+    "watch-server": "nodemon --watch 'src/**/*' -e ts,tsx --exec 'ts-node' ./src/app.ts",
+    "dev": "yarn run watch-server",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node-fetch": "^2.5.4",
+    "@types/uuid": "^3.4.6",
+    "form-data": "^3.0.0",
+    "node-fetch": "^2.6.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5",
+    "uuid": "^3.4.0"
+  }
+}
